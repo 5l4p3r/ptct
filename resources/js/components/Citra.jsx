@@ -10,3 +10,6 @@ const Citra = () => {
 }
 
 export default Citra
+if(document.getElementById('citra')){
+    ReactDOM.render(<Citra/>,document.getElementById('citra'))
+}
