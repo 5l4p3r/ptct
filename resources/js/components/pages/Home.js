@@ -5,6 +5,7 @@ const Home = () => {
     return (
         <div>
             <Banner/>
+            <hr/>
         </div>
     )
 }

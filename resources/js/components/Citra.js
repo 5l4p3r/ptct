@@ -6,6 +6,9 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import './style.css'
 import Home from './pages/Home';
 import Nav from './layout/Nav';
+import Sale from './form/Sale';
+import Customer from './form/Customer';
+import Sales from './pages/Sales';
 
 const Citra = () => {
     const [load, setLoad] = useState(true)
@@ -41,8 +44,8 @@ const Citra = () => {
                             </div>
                             <div className="ui-list">
                                 <div className="item list">
-                                    <Link to="/home" className="nav-link text-light">HOME</Link>
-                                    <Link to="/profile" className="nav-link text-light">PROFILE</Link>
+                                    <Link to="/home" className="nav-link text-light">DASHBOARD</Link>
+                                    <Link to="/customer" className="nav-link text-light">CUSTOMER</Link>
                                 </div>
                             </div>
                         </div>
@@ -67,6 +70,9 @@ const Citra = () => {
                         <div className="py-2">
                             <Switch>
                                 <Route exact path="/home" component={Home}/>
+                                <Route path="/sale" component={Sale}/>
+                                <Route path="/customer" component={Customer}/>
+                                <Route path="/sales/:id" component={Sales}/>
                             </Switch>
                         </div>
                     </div>

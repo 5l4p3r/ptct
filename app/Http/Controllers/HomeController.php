@@ -30,4 +30,28 @@ class HomeController extends Controller
             return view('user');
         }
     }
+    public function customer()
+    {
+        if(Auth::user()->level == 'admin'){
+            return view('home');
+        }else{
+            return redirect('/home');
+        }
+    }
+    public function sale()
+    {
+        if(Auth::user()->level == 'admin'){
+            return view('home');
+        }else{
+            return redirect('/home');
+        }
+    }
+    public function sales()
+    {
+        if(Auth::user()->level == 'admin'){
+            return view('home');
+        }else{
+            return redirect('/home');
+        }
+    }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Pembelian = () => {
+const Sale = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Pembelian = () => {
     )
 }
 
-export default Pembelian
+export default Sale
