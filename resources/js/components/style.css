@@ -41,6 +41,15 @@ html, body {
     height: 200px;
     overflow: scroll;
 }
+.list-desktop {
+    display: block;
+}
+.list-mobile {
+    display: none;
+}
+.text-banner {
+    font-size: 23px;
+}
 @media only screen and (max-width: 765px){
     .right-side {
         display: none;
@@ -51,8 +60,20 @@ html, body {
     .banner {
         width: 93%;
         margin-top: 5px;
+        display: flex;
+        text-align: justify;
+        flex-direction: row;
+    }
+    .text-banner {
+        font-size: 18px;
     }
     .tb-res {
+        display: none;
+    }
+    .list-mobile {
+        display: block;
+    }
+    .list-desktop {
         display: none;
     }
 }

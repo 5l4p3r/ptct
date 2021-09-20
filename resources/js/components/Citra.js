@@ -46,6 +46,7 @@ const Citra = () => {
                                 <div className="item list">
                                     <Link to="/home" className="nav-link text-light">DASHBOARD</Link>
                                     <Link to="/customer" className="nav-link text-light">CUSTOMER</Link>
+                                    <Link to="/sale" className="nav-link text-light">SALE</Link>
                                 </div>
                             </div>
                         </div>
