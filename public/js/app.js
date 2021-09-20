@@ -2153,11 +2153,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.css */ "./resources/js/components/style.css");
-/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/Home */ "./resources/js/components/pages/Home.jsx");
+/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/Home */ "./resources/js/components/pages/Home.js");
 /* harmony import */ var _layout_Nav__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./layout/Nav */ "./resources/js/components/layout/Nav.js");
-/* harmony import */ var _form_Sale__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./form/Sale */ "./resources/js/components/form/Sale.jsx");
-/* harmony import */ var _form_Customer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./form/Customer */ "./resources/js/components/form/Customer.jsx");
-/* harmony import */ var _pages_Sales__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/Sales */ "./resources/js/components/pages/Sales.jsx");
+/* harmony import */ var _form_Sale__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./form/Sale */ "./resources/js/components/form/Sale.js");
+/* harmony import */ var _form_Customer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./form/Customer */ "./resources/js/components/form/Customer.js");
+/* harmony import */ var _pages_Sales__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/Sales */ "./resources/js/components/pages/Sales.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
@@ -2355,10 +2355,10 @@ if (document.getElementById('citra')) {
 
 /***/ }),
 
-/***/ "./resources/js/components/form/Customer.jsx":
-/*!***************************************************!*\
-  !*** ./resources/js/components/form/Customer.jsx ***!
-  \***************************************************/
+/***/ "./resources/js/components/form/Customer.js":
+/*!**************************************************!*\
+  !*** ./resources/js/components/form/Customer.js ***!
+  \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2637,10 +2637,10 @@ var Customer = function Customer() {
 
 /***/ }),
 
-/***/ "./resources/js/components/form/Sale.jsx":
-/*!***********************************************!*\
-  !*** ./resources/js/components/form/Sale.jsx ***!
-  \***********************************************/
+/***/ "./resources/js/components/form/Sale.js":
+/*!**********************************************!*\
+  !*** ./resources/js/components/form/Sale.js ***!
+  \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -3121,10 +3121,10 @@ var Nav = function Nav() {
 
 /***/ }),
 
-/***/ "./resources/js/components/pages/Home.jsx":
-/*!************************************************!*\
-  !*** ./resources/js/components/pages/Home.jsx ***!
-  \************************************************/
+/***/ "./resources/js/components/pages/Home.js":
+/*!***********************************************!*\
+  !*** ./resources/js/components/pages/Home.js ***!
+  \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -3138,7 +3138,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _sub_Banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sub/Banner */ "./resources/js/components/sub/Banner.jsx");
+/* harmony import */ var _sub_Banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sub/Banner */ "./resources/js/components/sub/Banner.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
@@ -3274,10 +3274,10 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ "./resources/js/components/pages/Sales.jsx":
-/*!*************************************************!*\
-  !*** ./resources/js/components/pages/Sales.jsx ***!
-  \*************************************************/
+/***/ "./resources/js/components/pages/Sales.js":
+/*!************************************************!*\
+  !*** ./resources/js/components/pages/Sales.js ***!
+  \************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -3459,10 +3459,10 @@ var Sales = function Sales() {
 
 /***/ }),
 
-/***/ "./resources/js/components/sub/Banner.jsx":
-/*!************************************************!*\
-  !*** ./resources/js/components/sub/Banner.jsx ***!
-  \************************************************/
+/***/ "./resources/js/components/sub/Banner.js":
+/*!***********************************************!*\
+  !*** ./resources/js/components/sub/Banner.js ***!
+  \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
