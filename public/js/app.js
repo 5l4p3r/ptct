@@ -2084,7 +2084,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
  */
 
 
-__webpack_require__(/*! ./components/Citra */ "./resources/js/components/Citra.js");
+__webpack_require__(/*! ./components/Citra */ "./resources/js/components/Citra.jsx");
 
 /***/ }),
 
@@ -2132,10 +2132,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/Citra.js":
-/*!******************************************!*\
-  !*** ./resources/js/components/Citra.js ***!
-  \******************************************/
+/***/ "./resources/js/components/Citra.jsx":
+/*!*******************************************!*\
+  !*** ./resources/js/components/Citra.jsx ***!
+  \*******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -3601,7 +3601,7 @@ var Banner = function Banner() {
       className: "col img-thumbnail banner bg-warning",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
         className: "text-banner",
-        children: "Total Sales"
+        children: "Total Customer"
       }), "  \xA0", totalcustomer.map(function (item, i) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
           className: "text-banner",

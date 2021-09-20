@@ -35,7 +35,7 @@ const Banner = () => {
                 ))}
             </div>
             <div className="col img-thumbnail banner bg-warning">
-                <p className="text-banner">Total Sales</p>  &nbsp;
+                <p className="text-banner">Total Customer</p>  &nbsp;
                 {totalcustomer.map((item,i)=>(
                     <p className="text-banner" key={i}>{item.total} Active</p>
                 ))}
